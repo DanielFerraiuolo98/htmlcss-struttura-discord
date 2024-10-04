@@ -26,8 +26,11 @@ body{
 }
 
 .container-small{
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 header{
@@ -58,8 +61,7 @@ button{
 
 #hero{
     padding: 10px;
-    display: flex;
-    justify-content: center;
+    background-color: var(--blue);
 }
 
 #place{
