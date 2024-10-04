@@ -6,7 +6,7 @@
 
 body{
     color: var(--dark);
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
@@ -34,6 +34,20 @@ header{
     background-color: var(--blue);
 }
 
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#meet{
+    background-color: var(--gray);
+}
+
+#technology{
+    background-color: var(--gray);
+}
+
 footer{
     background-color: var(--dark);
+    color: white;
 }
