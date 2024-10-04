@@ -32,6 +32,23 @@ body{
 
 header{
     background-color: var(--blue);
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+div ul li a{
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 35%;
 }
 
 .display-flex{
@@ -39,15 +56,50 @@ header{
     justify-content: space-between;
 }
 
+#hero{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#place{
+    padding: 10px;
+}
+
+.image{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+}
+
 #meet{
     background-color: var(--gray);
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+#community{
+    padding: 10px;
 }
 
 #technology{
     background-color: var(--gray);
+    padding: 10px;
+}
+
+#cta{
+    background-color: var(--gray);
+    padding: 10px;
 }
 
 footer{
     background-color: var(--dark);
     color: white;
+    padding: 10px;
+}
+
+.footer-top{
+    border-bottom: 1px solid var(--gray);
 }
