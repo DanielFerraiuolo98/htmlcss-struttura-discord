@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: var(--dark);
+    
+}
+
+:root{
+    --blue: #2a5ee8;
+    --violet: #748adb;
+    --dark: #23272a;
+    --gray: #f6f6f6;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--blue);
+}
+
+footer{
+    background-color: var(--dark);
+}
