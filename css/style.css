@@ -16,10 +16,6 @@ body{
     --gray: #f6f6f6;
 }
 
-.debug{
-    border: 1px solid red;
-}
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -180,5 +176,57 @@ footer{
 }
 
 .footer-top{
-    border-bottom: 1px solid var(--gray);
+    border-bottom: 1px solid var(--violet);
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
 }
+
+footer h3{
+    color: var(--violet);
+    padding-top: 20px;
+}
+
+footer img{
+    width: 40px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.flag{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline
+}
+
+.lista{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer ul{
+    color: var(--violet);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+footer ul li{
+    padding: 10px;
+}
+
+span{
+    margin-left: 25px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.bottone{
+    background-color: var(--violet);
+    color: white;
+}
+
+
+
+
