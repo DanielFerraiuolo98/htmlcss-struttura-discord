@@ -62,7 +62,7 @@ h1{
 
 #hero div p{
     color: white; 
-    padding-bottom: 5px; 
+    padding: 5px; 
 }
 
 .button-left{
@@ -102,26 +102,75 @@ h1{
 
 .text{
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#place div h2{
+    font-size: 40px;
+    align-self: flex-start;
 }
 
 #meet{
     background-color: var(--gray);
-    flex-direction: row-reverse;
     padding: 10px;
+}
+
+#meet div h2{
+    font-size: 40px;
 }
 
 #community{
     padding: 10px;
 }
 
+#community div h2{
+    font-size: 40px;
+}
+
 #technology{
     background-color: var(--gray);
+    padding: 10px; 
+}
+
+.technology-top{
+    text-align: center;
+}
+
+.technology-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+#technology div h2{
+    font-size: 40px;
     padding: 10px;
 }
 
 #cta{
     background-color: var(--gray);
     padding: 10px;
+}
+
+#cta div h2{
+    text-align: center;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#cta .btn button{
+    background-color: var(--violet);
+    color: white;
 }
 
 footer{
