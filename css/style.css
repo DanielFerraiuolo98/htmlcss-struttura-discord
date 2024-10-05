@@ -28,9 +28,11 @@ body{
 .container-small{
     max-width: 800px;
     margin: 0 auto;
-    padding: 10px;
+    padding-top: 150px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 header{
@@ -54,6 +56,29 @@ button{
     border-radius: 35%;
 }
 
+h1{
+    color: white;
+}
+
+#hero div p{
+    color: white; 
+    padding-bottom: 5px; 
+}
+
+.button-left{
+    background-color: white;
+    color: var(--dark);
+    padding: 10px;
+    border-radius: 35%;
+}
+
+.button-right{
+    background-color: var(--dark);
+    color: white;
+    padding: 10px;
+    border-radius: 35%;
+}
+
 .display-flex{
     display: flex;
     justify-content: space-between;
@@ -62,6 +87,9 @@ button{
 #hero{
     padding: 10px;
     background-color: var(--blue);
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    height: 500px;
 }
 
 #place{
