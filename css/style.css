@@ -83,7 +83,7 @@ h1{
 #hero{
     padding: 10px;
     background-color: var(--blue);
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 500px;
 }
